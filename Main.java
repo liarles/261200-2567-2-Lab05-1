@@ -1,0 +1,21 @@
+public class Main {
+    public static void main(String[] args){
+        User user = new User();
+        User user1 = new User("Sylvester", 1946, 7, 6);
+        User John = new User("John", 1954, 2, 18);
+
+        user.displayInfo();
+        user1.displayInfo();
+        John.displayInfo();
+
+        Admin nicolas = new Admin("Nicolas", 1964, 1, 7);
+
+        nicolas.displayInfo();
+        nicolas.displayInfo(true);
+        nicolas.displayInfo(false);
+
+
+
+    }
+}
+
